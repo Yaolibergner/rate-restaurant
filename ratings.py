@@ -33,7 +33,7 @@ def add_ratings():
 
 	#Prompt user for adding new restaurant and score to the dict.
 
-	new_restaurant = input("What's the restaurant name? ").capitalize()
+	new_restaurant = input("What's the restaurant name? ").title()
 	rating = int(input("What's the restaurant's score? "))
 
 	# restaurant_new_dict[new_restaurant] = rating
